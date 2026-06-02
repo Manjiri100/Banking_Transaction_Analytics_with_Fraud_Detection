@@ -1,37 +1,38 @@
 🏦 Banking Transaction Analytics with Fraud Detection
 📌 Project Overview
 
-Designed an end-to-end banking analytics solution to analyse customer transactions, identify behavioural patterns, segment customers, and detect potentially fraudulent activity. The solution demonstrates how data-driven insights can support fraud risk monitoring, customer targeting, and operational decision-making in financial services.
+Developed a banking transaction analytics system to analyse customer behaviour, detect anomalies, and identify potentially fraudulent transactions using data-driven techniques.
 
 🎯 Business Context
 
-Banks process high volumes of daily transactions across multiple branches, making it challenging to:
+Banks handle large-scale transaction flows daily, making it difficult to:
 
 Monitor customer behaviour at scale
-Identify high-value customers
-Detect anomalous or suspicious transactions
-Evaluate branch-level performance
+Identify suspicious or unusual transactions
+Segment customers based on transaction patterns
+Analyse branch-level performance
 
-This project addresses these challenges through exploratory analysis, customer segmentation, and anomaly detection techniques.
+This project applies analytics and machine learning techniques to address these challenges.
 
 ⚙️ Approach
-Performed transaction-level and branch-level analysis to understand banking behaviour
-Built customer-level feature aggregation to support behavioural segmentation
-Applied K-Means clustering to group customers based on transaction patterns
-Implemented statistical anomaly detection (95th percentile threshold) to flag unusual transactions
-Analysed fraud distribution across customers and branches to identify risk patterns
+Performed transaction-level and branch-level exploratory analysis
+Engineered customer-level features for behavioural profiling
+Applied K-Means clustering for customer segmentation
+Used statistical thresholding (95th percentile) for anomaly detection
+Analysed fraud patterns across customers and branches
 📊 Key Insights
-Transaction activity varies significantly across branches
-A small customer segment contributes disproportionately to total transaction value
+Transaction behaviour varies significantly across branches
+A small customer segment contributes disproportionately to transaction value
 High-value transactions are rare but critical for fraud monitoring
-Distinct behavioural customer segments can be leveraged for targeted strategies
-Certain branches exhibit higher concentrations of unusual transaction activity
+Distinct customer clusters can support targeted banking strategies
+Certain branches show higher concentrations of anomalous activity
 📈 Business Impact
-Supports fraud risk identification and anomaly monitoring
-Enables customer segmentation for targeted banking strategies
-Provides insights for branch-level operational performance
+Supports fraud risk identification and monitoring
+Enables customer segmentation for targeted strategies
+Provides insights into branch-level operational performance
 Demonstrates application of analytics in financial decision-making
-🚀 Tools & Technologies
+🛠 Tools & Technologies
 
-Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn (K-Means, anomaly detection)
+Python | Pandas | NumPy | Matplotlib | Seaborn | Scikit-learn (K-Means, anomaly detection)
+
 <img width="1000" height="1000" alt="Banking and fraud detection analytics" src="https://github.com/user-attachments/assets/ab5e2b9f-fe92-401f-82c4-6d8ff56218b6" />
